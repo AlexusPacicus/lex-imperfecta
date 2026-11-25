@@ -42,6 +42,9 @@ interpretation.
 | Test quality: grade B or better (% of runs) | 30–60% (6–12 of 20; centre 9) | as A | as A | no direction |
 | Task finished (% of runs) | 95–100% (19–20 of 20) | 95–100% | 95–100% | 85–100% (17–20 of 20): the code under test changed in 0–3 runs |
 
+Ratios as `PROTOCOL.md`, section 9, estimates them (Hodges–Lehmann on the logarithm of the tokens),
+not ratios of medians.
+
 ## 3. The instrument
 
 * Strict compliance in C: [expected ≈ 100%; a value below is a leak finding].
@@ -211,7 +214,8 @@ One entry per prediction, each with the same five parts. Write each part in one 
   the content twice. B-md uses the channel almost as often as C, so it also writes the content
   twice, plus the reasoning that `CLAUDE.md` provokes; a little less than C against B-hook, because
   after a refused proposal B-md can write directly instead of trying again (ratio 1.4–2.0). The
-  cells against A follow by multiplying the ratios.
+  other cells follow from these three: C / A = (C / B-hook) × (B-hook / A),
+  B-md / A = (B-md / B-hook) × (B-hook / A), and C / B-md = (C / B-hook) / (B-md / B-hook).
 * **Rests on:** My predictions for H1, H3 and B-md.
 * **Against:** Tokens vary a lot between runs, so with 20 runs many of these cells may come out e.
 * **Refuted if:** B-md − B-hook comes out inside the band (c or d) while B-md complies in 14 or more
