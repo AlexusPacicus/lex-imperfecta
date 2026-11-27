@@ -7,8 +7,9 @@ that changes nothing is recorded too, with the reason.
 
 ## How a critique is handled
 
-* **Before the freeze** (Saturday 28 November 2026, 00:00 Madrid time): a critique that changes the
-  design changes the files of `protocol/` directly, in a commit that names its entry here.
+* **Before the freeze** (Wednesday 2 December 2026, 23:59 Madrid time, 22:59 UTC; first set for
+  Saturday 28 November at 00:00): a critique that changes the design changes the files of
+  `protocol/` directly, in a commit that names its entry here.
 * **After the freeze:** a critique that changes the design is written in `DEVIATIONS.md`, with its
   date and its reason, or carried to the next study. Its entry here says which.
 * **Credit:** each reviewer is named as they choose, or not named. A critique that changes the
@@ -21,7 +22,7 @@ Where review was asked for. If none arrives before the freeze, the report says s
 
 | Date | Where | Closes |
 |---|---|---|
-| [AUTHOR: date] | Apart Research Discord, [AUTHOR: link to the thread] | Saturday 28 November 2026, 00:00 Madrid time, for changes to the protocol |
+| [AUTHOR: date] | Apart Research Discord, [AUTHOR: link to the thread] | Wednesday 2 December 2026, 23:59 Madrid time, for changes to the protocol |
 | [AUTHOR: date] | The issues of this repository | Open; after the freeze, as above |
 
 ## Summary

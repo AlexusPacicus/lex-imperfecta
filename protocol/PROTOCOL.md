@@ -484,8 +484,10 @@ script, and a file says what was removed and why.
 
 **Order until the freeze:** this protocol → `PREDICTIONS.md` → draft → outside review requested in
 the Apart Research Discord → freeze (commit and DOI on Zenodo) → pilot → runs. The review closes on
-Saturday 28 November 2026 at 00:00, Madrid time. If no answer arrives, the protocol is frozen anyway
-and the report says that review was asked for and none came.
+Wednesday 2 December 2026 at 23:59, Madrid time (22:59 UTC); it was first set for Saturday
+28 November at 00:00 and moved to work through the first review received (`REVIEWS.md`). If no
+answer arrives, the protocol is frozen anyway and the report says that review was asked for and
+none came.
 
 ## References
 

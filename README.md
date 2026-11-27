@@ -21,9 +21,10 @@ achieves what enforcement by code does.
 
 ## Status
 
-**Draft, not frozen.** The protocol freezes on **Saturday 28 November 2026 at 00:00, Madrid
-time** (23:00 UTC on Friday 27), in one commit published on Zenodo with its own DOI. No run has
-been made. The harness and the code under test come after the freeze.
+**Draft, not frozen.** The protocol freezes on **Wednesday 2 December 2026 at 23:59, Madrid
+time** (22:59 UTC), in one commit published on Zenodo with its own DOI. The freeze was moved from
+Saturday 28 November to work through the first review received ([`REVIEWS.md`](REVIEWS.md)). No
+run has been made. The harness and the code under test come after the freeze.
 
 ## Documents
 
